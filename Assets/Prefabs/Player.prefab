@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6292215753802111756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2787065689530186272}
+  - component: {fileID: 114107044767582630}
+  - component: {fileID: 114309414712142080}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2787065689530186272
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6292215753802111756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.6550872, y: 3.9762492, z: -0.2786801}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114107044767582630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6292215753802111756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
+--- !u!114 &114309414712142080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6292215753802111756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a958952e65e754abcbda5c24551ba7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LeftTop: {fileID: 5390441465889977021, guid: ed812b959d1b68040898416b76c13122, type: 3}
+  RightTop: {fileID: 3789974803048106003, guid: aec4b3a08aafb084ebf7710e11d98416,
+    type: 3}
+  LeftBottom: {fileID: 4520501706490186143, guid: cc4a209c395c6d24299533c9758fecdf,
+    type: 3}
+  RightBottom: {fileID: 3548687279573112316, guid: 370a2d91c1654d440aa7a4f08f039b9d,
+    type: 3}
+  cam: {fileID: 6568539040043808732, guid: 269f53f6ed9d95746be33646585d0d01, type: 3}
+  LTPos: {x: 0, y: 0, z: 0}
+  RTPos: {x: 0, y: 0, z: 0}
+  LBPos: {x: 0, y: 0, z: 0}
+  RBPos: {x: 0, y: 0, z: 0}
+  winner: 0
+  isPlaying: 1
+  isRestart: 0
+  white: {fileID: 2800000, guid: cc6813e76541526479d35087c4182132, type: 3}
+  black: {fileID: 2800000, guid: a6201df160d54fc49b1587f403a1c207, type: 3}
